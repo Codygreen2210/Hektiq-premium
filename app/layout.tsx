@@ -66,7 +66,8 @@ export default function RootLayout({
               <div>
                 <h4 className="font-semibold mb-4 text-sm text-offwhite">Contact</h4>
                 <p className="text-sm text-offwhite/60">Let's talk about your website.</p>
-                <a href="mailto:hello@hektiq.com" className="text-emerald hover:text-magenta transition text-sm mt-2 block font-medium">hello@hektiq.com</a>
+                <a href="mailto:cody@hektiq.com" className="text-emerald hover:text-magenta transition text-sm mt-2 block font-medium">cody@hektiq.com</a>
+                <a href="tel:+13183194561" className="text-emerald hover:text-magenta transition text-sm mt-1 block font-medium">(318) 319-4561</a>
               </div>
             </div>
             <div className="border-t border-emerald/20 pt-8 text-center text-sm text-offwhite/40">
