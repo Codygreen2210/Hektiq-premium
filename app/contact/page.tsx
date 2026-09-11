@@ -25,7 +25,7 @@ export default function Contact() {
     setLoading(true)
 
     try {
-      const response = await fetch('https://formspree.io/f/xyzabcde', {
+      const response = await fetch('https://formspree.io/f/mdabbjvn', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -136,8 +136,8 @@ export default function Contact() {
           {/* Alternative Contact */}
           <div className="mt-12 pt-12 border-t border-dark text-center">
             <p className="text-offwhite/60 mb-4">Prefer to call?</p>
-            <a href="tel:+1234567890" className="text-emerald text-lg font-semibold hover:text-magenta transition">
-              (123) 456-7890
+            <a href="tel:+13183194561" className="text-emerald text-lg font-semibold hover:text-magenta transition">
+              (318) 319-4561
             </a>
           </div>
         </motion.div>
